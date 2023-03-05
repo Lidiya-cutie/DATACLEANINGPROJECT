@@ -77,6 +77,12 @@ summa = sum(lst)
 
 ```
 
+```SQL
+SELECT column1, column2, ...
+FROM table_new
+WHERE columnN LIKE pattern;
+```
+
 > Цитируемый текст
 
 Пусть задано выражение:
