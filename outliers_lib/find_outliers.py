@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 
-def outliers_iqr_mod(data, feature, left=1.5, right=1.5, log_scale=False):
+def find_outliers_iqr(data, feature, left=1.5, right=1.5, log_scale=False):
     """
     Находит выбросы в данных, используя метод межквартильного размаха.
     Классический метод модифицирован путем добавления:
@@ -30,7 +30,7 @@ def outliers_iqr_mod(data, feature, left=1.5, right=1.5, log_scale=False):
     cleaned = data[(x > lower_bound) & (x < upper_bound)]
     return outliers, cleaned
 
-def outliers_z_score_mod(data, feature, left=3, right=3, log_scale=False):
+def find_outliers_z_score(data, feature, left=3, right=3, log_scale=False):
     """
     Находит выбросы в данных, используя метод z-отклонений.
     Классический метод модифицирован путем добавления:
