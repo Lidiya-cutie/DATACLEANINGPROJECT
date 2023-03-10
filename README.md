@@ -19,7 +19,7 @@
 * metro_km_walk - расстояние до ближайшего метро в километрах
 * railroad_station_walk_km - расстояние до ближайшей ж.д. станции в километрах
 * railroad_station_walk_min - время до ближайшей ж.д. станции пешком в минутах 
-С полным перечнем признаков можно ознакомиться [здесь](https://github.com/Lidiya-cutie/DATACLEANINGPROJECT/blob/master/outliers_lib/sber_data.md)
+С полным перечнем признаков можно ознакомиться [здесь](outliers_lib/sber_data.md)
 Для работы понадобится импортировать *библиотеки*:
 ```python
 # для работы с данными
